@@ -1,0 +1,7 @@
+---
+applications:
+  - name: ReserveMicroservice1
+    path: target/ReserveMicroservice1-0.0.1-SNAPSHOT.jar
+    domain: cfapps.io
+services:
+  - reservedb

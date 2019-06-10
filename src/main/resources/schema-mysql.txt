@@ -1,0 +1,2 @@
+DROP table IF EXISTS `appointment`;
+create table appointment(ref_Id BIGINT not null primary key, am_pm varchar(255), date varchar(255), status TINYINT(45));
